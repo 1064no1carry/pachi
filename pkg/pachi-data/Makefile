@@ -12,8 +12,8 @@
 
 
 # Debian package name
-BASE=pachi-go-data_12.10
-NAME=pachi-go-data_12.10-1
+BASE=pachi-go-data_12.20
+NAME=pachi-go-data_12.20-1
 
 
 ################################################################
@@ -46,6 +46,7 @@ copy-data-files:
 	cp -p ../../opening.dat        src/
 	cp -p ../../patterns_mm.gamma  src/
 	cp -p ../../patterns_mm.spat   src/
+	cp -p ../../joseki19.gtp       src/
 
 
 ################################################################

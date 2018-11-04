@@ -21,7 +21,7 @@ Vcs-Browser: https://github.com/pasky/pachi
 
 Package: pachi-go
 Architecture: any
-Depends: pachi-go-data (>= 12.10), ${shlibs:Depends}, ${misc:Depends}
+Depends: pachi-go-data (>= 12.20), libopenblas-base, ${shlibs:Depends}, ${misc:Depends}
 Description: engine for the game of go / weiqi / baduk
  Pachi is a reasonably strong engine for the ancient game of go
  (http://senseis.xmp.net/?Go)

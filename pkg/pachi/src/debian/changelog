@@ -1,3 +1,9 @@
+pachi-go (12.20.20181104-trusty1) trusty; urgency=medium
+
+  * Pachi 12.20
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Sun, 04 Nov 2018 17:30:39 +0200
+
 pachi-go (12.10.20180805-trusty1) trusty; urgency=medium
 
   * Pachi 12.10
