@@ -1,18 +1,41 @@
+pachi-go (12.30.20190211-trusty1) trusty; urgency=medium
+
+  Pachi 12.30:
+
+  * lizzie support !
+  * dcnn pondering
+  * japanese rules: territory scoring in playouts
+  * full gtp undo
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Mon, 11 Feb 2019 17:30:39 +0200
+
 pachi-go (12.20.20181104-trusty1) trusty; urgency=medium
 
-  * Pachi 12.20
+  Pachi 12.20:
+
+  * dcnn: handle smaller board sizes
+  * don't play slack when taking handicap
+  * mm patterns fixes, better prediction rate
+  * use joseki engine when playing without dcnn
 
  -- lemonsqueeze <lemonsqueeze@gmx.com>  Sun, 04 Nov 2018 17:30:39 +0200
 
 pachi-go (12.10.20180805-trusty1) trusty; urgency=medium
 
-  * Pachi 12.10
+  Pachi 12.10:
+
+  * mm patterns
+  * playouts: handle bent-four, special sekis
+  * infrastructure fixes
 
  -- lemonsqueeze <lemonsqueeze@gmx.com>  Sun, 05 Aug 2018 19:39:39 +0200
 
 pachi-go (12.00.20180211-trusty1) trusty; urgency=medium
 
-  * Pachi 12.00
+  Pachi 12.00:
+
+  * dcnn support
+  * default settings changed, see readme
 
  -- lemonsqueeze <lemonsqueeze@gmx.com>  Sat, 11 Feb 2018 18:14:39 +0200
 

@@ -11,8 +11,8 @@
 
 
 # Debian package name
-BASE=pachi-go_12.20.20181104
-NAME=pachi-go_12.20.20181104-trusty1
+BASE=pachi-go_12.30.20190211
+NAME=pachi-go_12.20.20190211-trusty1
 
 # Which branch to package ?
 GIT_BRANCH=master
