@@ -12,8 +12,8 @@
 
 
 # Debian package name
-BASE=pachi-go-data_12.20
-NAME=pachi-go-data_12.20-1
+BASE=pachi-go-data_12.40
+NAME=pachi-go-data_12.40-1
 
 
 ################################################################
@@ -41,8 +41,8 @@ $(BASE).orig.tar.xz:
 	cd src && tar -cvJf ../$@  `ls | grep -v debian`
 
 copy-data-files:
-	cp -p ../../golast.trained     src/
-	cp -p ../../golast19.prototxt  src/
+	cp -p ../../detlef54.trained   src/
+	cp -p ../../detlef54.prototxt  src/
 	cp -p ../../opening.dat        src/
 	cp -p ../../patterns_mm.gamma  src/
 	cp -p ../../patterns_mm.spat   src/

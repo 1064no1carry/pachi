@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: lemonsqueeze <lemonsqueeze@gmx.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
-Homepage: http://pachi.or.cz
+Homepage: http://github.com/pasky/pachi
 
 Package: pachi-go-data
 Architecture: all
@@ -13,5 +13,5 @@ Description: Pachi go engine data files
  Pachi is a reasonably strong engine for the ancient game of go
  (http://senseis.xmp.net/?Go)
  .
- This package contains data files required by Pachi. They include
- large patterns, opening book and dcnn.
+ This package contains data files used by Pachi:
+ dcnn, large patterns, joseki database and opening book.

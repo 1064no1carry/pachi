@@ -1,3 +1,16 @@
+pachi-go (12.40.20190406-trusty1) trusty; urgency=medium
+
+  Pachi 12.40:
+
+  * Speedup, about 20% faster
+  * Multiple dcnns support: detlef44, detlef54, darkforest
+  * lz-genmove_analyze support (get winrates in sabaki etc)
+  * lz-analyze: handle frequency
+  * Set engine options over gtp
+  * Dcnn pondering fix
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Sat, 06 Apr 2019 14:30:32 +0200
+
 pachi-go (12.30.20190211-trusty1) trusty; urgency=medium
 
   Pachi 12.30:

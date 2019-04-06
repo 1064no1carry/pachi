@@ -1,3 +1,9 @@
+pachi-go-data (12.40-1) trusty; urgency=low
+
+  * Pachi 12.40 (Renamed dcnn files)
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Sat, 06 Apr 2019 14:30:32 +0200
+
 pachi-go-data (12.20-1) trusty; urgency=low
 
   * Pachi 12.20 (Joseki engine)

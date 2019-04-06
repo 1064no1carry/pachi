@@ -15,13 +15,13 @@ Build-Depends: debhelper (>= 8.0.0),
                liblzma-dev,
                libopenblas-dev
 Standards-Version: 3.9.4
-Homepage: http://pachi.or.cz/
+Homepage: https://github.com/pasky/pachi
 Vcs-Git: https://github.com/pasky/pachi.git
 Vcs-Browser: https://github.com/pasky/pachi
 
 Package: pachi-go
 Architecture: any
-Depends: pachi-go-data (>= 12.20), libopenblas-base, ${shlibs:Depends}, ${misc:Depends}
+Depends: pachi-go-data (>= 12.40), libopenblas-base, ${shlibs:Depends}, ${misc:Depends}
 Description: engine for the game of go / weiqi / baduk
  Pachi is a reasonably strong engine for the ancient game of go
  (http://senseis.xmp.net/?Go)
@@ -40,5 +40,5 @@ Description: engine for the game of go / weiqi / baduk
  playouts. Large-scale board patterns and dcnn are used in the tree
  search. Technical information (only slightly dated) about Pachi's
  architecture and algorithms can be found in Petr Baudis' Master's Thesis:
- http://pachi.or.cz/
+ https://github.com/pasky/pachi
 
