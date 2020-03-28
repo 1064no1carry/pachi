@@ -1,9 +1,6 @@
 # To package a new version of Pachi:
 #   pick new package name and branch (this Makefile)
 #   add an entry to debian/changelog for target distribution
-#   change version where appropriate:
-#                  patches/makefile-and-version.patch
-#                  ...
 #   fix debian/patches if needed
 #   cross fingers & make
 #
@@ -11,8 +8,8 @@
 
 
 # Debian package name
-BASE=pachi-go_12.40.20190406
-NAME=pachi-go_12.40.20190406-trusty1
+BASE=pachi-go_12.45.20200408
+NAME=pachi-go_12.45.20200408-trusty1
 
 # Which branch to package ?
 GIT_BRANCH=master

@@ -1,3 +1,14 @@
+pachi-go (12.45.20200408-trusty1) trusty; urgency=medium
+
+  Pachi 12.45:
+
+  * --accurate-scoring: use GnuGo to compute dead stones at the end
+  * --fuseki-time stops after move 10 instead of 20
+  * Endgame pass fixes
+  * Fixed gtp undo timer issue
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Wed, 08 Apr 2020 12:52:32 +0200
+
 pachi-go (12.40.20190406-trusty1) trusty; urgency=medium
 
   Pachi 12.40:
