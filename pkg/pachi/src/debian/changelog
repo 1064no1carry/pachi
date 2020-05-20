@@ -1,11 +1,21 @@
+pachi-go (12.50.20200520-trusty1) trusty; urgency=medium
+
+  Pachi 12.50:
+
+  * fixed analyze issues in Sabaki
+  * automatically grow tree memory as needed
+  * fixed kgsgtp-3.5.20+ crashes (kgs-chat disabled by default now)
+
+ -- lemonsqueeze <lemonsqueeze@gmx.com>  Wed, 20 May 2020 09:26:32 +0200
+
 pachi-go (12.45.20200408-trusty1) trusty; urgency=medium
 
   Pachi 12.45:
 
   * --accurate-scoring: use GnuGo to compute dead stones at the end
   * --fuseki-time stops after move 10 instead of 20
-  * Endgame pass fixes
-  * Fixed gtp undo timer issue
+  * endgame pass fixes
+  * fixed gtp undo timer issue
 
  -- lemonsqueeze <lemonsqueeze@gmx.com>  Wed, 08 Apr 2020 12:52:32 +0200
 
@@ -13,12 +23,12 @@ pachi-go (12.40.20190406-trusty1) trusty; urgency=medium
 
   Pachi 12.40:
 
-  * Speedup, about 20% faster
-  * Multiple dcnns support: detlef44, detlef54, darkforest
+  * speedup, about 20% faster
+  * multiple dcnns support: detlef44, detlef54, darkforest
   * lz-genmove_analyze support (get winrates in sabaki etc)
   * lz-analyze: handle frequency
-  * Set engine options over gtp
-  * Dcnn pondering fix
+  * set engine options over gtp
+  * dcnn pondering fix
 
  -- lemonsqueeze <lemonsqueeze@gmx.com>  Sat, 06 Apr 2019 14:30:32 +0200
 
