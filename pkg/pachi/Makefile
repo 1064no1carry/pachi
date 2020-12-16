@@ -8,8 +8,8 @@
 
 
 # Debian package name
-BASE=pachi-go_12.50.20200520
-NAME=pachi-go_12.50.20200520-trusty1
+BASE=pachi-go_12.60.20201215
+NAME=pachi-go_12.60.20201215-xenial1
 
 # Which branch to package ?
 GIT_BRANCH=master
